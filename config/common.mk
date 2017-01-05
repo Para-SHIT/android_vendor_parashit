@@ -233,6 +233,11 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
+# OmniRom packages
+PRODUCT_PACKAGES += \
+    OmniStyle \
+    OmniSwitch
+
 #DU Utils Library
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
