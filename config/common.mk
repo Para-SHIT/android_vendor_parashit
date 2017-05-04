@@ -229,12 +229,16 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
+# Busybox
+PRODUCT_PACKAGES += \
+    busybox
+
 # OmniRom packages
 PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch
 
-#DU Utils Library
+# DU Utils Library
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
 
